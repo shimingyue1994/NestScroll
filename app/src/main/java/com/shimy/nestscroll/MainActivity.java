@@ -13,6 +13,7 @@ import com.shimy.nestscroll.ui.Test01Activity;
 import com.shimy.nestscroll.ui.Test02Activity;
 import com.shimy.nestscroll.ui.Test03Activity;
 import com.shimy.nestscroll.ui.Test04Activity;
+import com.shimy.nestscroll.ui.Test05Activity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new MainBean(Test02Activity.class, "test02_自定义", "test01_layoutDependsOn"));
         list.add(new MainBean(Test03Activity.class, "test03_自定义", "layoutDependsOn+onStartNestedScroll"));
         list.add(new MainBean(Test04Activity.class, "test04_自定义", "uc"));
+        list.add(new MainBean(Test05Activity.class, "test05_BottomDialog", "test05_BottomDialog"));
         adapter.notifyDataSetChanged();
     }
 }
